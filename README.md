@@ -1,6 +1,6 @@
 ## Description
 
-With this project, I aimed to create a website to improve my skills with APIs, React Routing, useState and useEffect.
+With this project, I aimed to create a website to improve my skills with APIs, React Routing, Styled Components, React Icons, useState and useEffect.
 
 ## Project Skeleton
 
