@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Nav, {Logo, Menu, MenuLink, Hamburger} from './Navbar.style'
-import { Link } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 
 const NavbarHome = () => {
@@ -14,7 +13,7 @@ const NavbarHome = () => {
         <span>Recipe</span>
       </Logo>
 
-      <Hamburger>
+      <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <FiMenu size={40}/>
       </Hamburger>
 

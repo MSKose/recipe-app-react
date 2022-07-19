@@ -1,4 +1,11 @@
-import React from 'react'
+import {
+  DetailContainer,
+  DetailPart,
+  HeaderContainer,
+  ImgContainer,
+  OtherPart,
+  IngContainer,
+} from './Detail.style';
 
 const Details = () => {
   return (
