@@ -46,9 +46,13 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
+## Project Gif
 
 ![Project 004 Snapshot](food-search-app.gif)
+
+## Live Site
+
+[Live Site](https://mskose-recipe-app-react.netlify.app/)
 
 ## Objective
 

@@ -6,7 +6,7 @@ const Header = ({setQuery, setSelectedMeal, mealType, getData}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        getData();
+        // getData();
     }
   return (
     <HeaderContainer>
@@ -14,7 +14,7 @@ const Header = ({setQuery, setSelectedMeal, mealType, getData}) => {
         <FormContainer onSubmit={handleSubmit}>
             <FoodInput type='text' placeholder='search' onChange={(e) => setQuery(e.target.value)}/>
             <Button type='submit'>SEARCH</Button>
-            <Select name='mealType' id='mealType' onChange={e => setSelectedMeal(e.target.value)}>
+            <Select name='mealType' id='mealType' onChange={(e) => setSelectedMeal(e.target.value)}>
                 {mealType?.map((meal,index) => (
                     <option key={index} value={meal.toLowerCase()}>{meal}</option>
                 ))}
