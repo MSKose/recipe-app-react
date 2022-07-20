@@ -12,9 +12,9 @@ const Login = ({setNavbar, navbar}) => {
 
   function handleSubmit(e) {
     e.preventDefault()
-    // setNavbar(true)
-    sessionStorage.setItem("pass", pass)
-    // window.location.href="/home"
+    // important detail here: I have to pass the pass as JSON.stringify(pass) or else I'll get
+    // "Unexpected token w in JSON at position 0" error
+    sessionStorage.setItem("pass", JSON.stringify(pass))
     navigate(-1)
   }
 

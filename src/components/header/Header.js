@@ -6,7 +6,7 @@ const Header = ({setQuery, setSelectedMeal, mealType, getData}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // getData();
+        getData();
     }
   return (
     <HeaderContainer>
